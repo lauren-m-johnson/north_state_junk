@@ -1,6 +1,6 @@
 import './Services.css';
 
-export default function Contact() {
+export default function Services() {
     return (
         <div>
             <h1>Services</h1>
