@@ -1,0 +1,11 @@
+#serv-intro {
+    background-image: url('/images/junk-pile.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 30vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 7vmin;
+    padding: 3vmin;
+}

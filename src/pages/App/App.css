@@ -9,3 +9,9 @@ body {
     padding: 5vmin;
     background-color: #B8B68F;
 }
+
+.section-text {
+    font-size: 7vmin;
+    padding: 3vmin;
+    color: #8a0606;
+}
