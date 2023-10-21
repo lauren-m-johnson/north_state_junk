@@ -18,3 +18,8 @@
     border-radius: 10px;
     font-family: 'Lato', sans-serif;
 }
+
+#footer-btn:hover {
+    background-color: #8a0606;
+    color: #fcfbf4;
+}
