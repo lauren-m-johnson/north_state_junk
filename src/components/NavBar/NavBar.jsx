@@ -4,7 +4,7 @@ import './NavBar.css';
 export default function NavBar() {
     return (
         <div id='nav-bar'>
-            <h1>North State Junk Removal</h1>
+            <img src='/images/logo.png' alt='logo' id='logo-nav' />
             <div id='nav-links'>
                 <Link to='/'>Home</Link>
                 <Link to='/services'>Services</Link>

@@ -4,6 +4,7 @@ import Home from '../Home/Home';
 import Services from '../Services/Services';
 import Contact from '../Contact/Contact';
 import './App.css'
+import Footer from '../../components/Footer/Footer';
 
 export default function App() {
   return (
@@ -14,6 +15,7 @@ export default function App() {
         <Route path='/services' element={<Services />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
+      <Footer />
     </>
   )
 }

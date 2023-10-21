@@ -1,0 +1,17 @@
+#home-intro {
+    background-image: url('/images/ca-hills.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 50vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 7vmin;
+    padding: 3vmin;
+}
+
+#intro-text {
+    font-size: 7vmin;
+    padding: 3vmin;
+    color: #8a0606;
+}
