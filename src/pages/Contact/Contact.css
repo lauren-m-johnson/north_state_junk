@@ -1,0 +1,11 @@
+#contact-intro {
+    background-image: url('/images/contact-phone.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 30vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 7vmin;
+    padding: 3vmin;
+}

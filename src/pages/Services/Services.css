@@ -1,6 +1,6 @@
 #serv-intro {
     background-image: url('/images/junk-pile.jpg');
-    background-size: cover;
+    background-size: contain;
     background-position: center;
     height: 30vmin;
     display: flex;
