@@ -9,6 +9,13 @@ h2 {
     color: #24231b;
 }
 
+p {
+    font-size: 3vmin;
+}
+
+li {
+    font-size: 3vmin;
+}
 .main-container {
     margin: 5vmin;
     padding: 5vmin;
