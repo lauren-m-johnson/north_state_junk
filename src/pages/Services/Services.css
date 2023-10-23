@@ -9,3 +9,17 @@
     font-size: 7vmin;
     padding: 3vmin;
 }
+
+#list-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#list-container ul {
+    display: flex;
+    flex-direction: column;
+    gap: 2vmin;
+    font-size: 3vmin;
+}
