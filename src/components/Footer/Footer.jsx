@@ -7,8 +7,8 @@ export default function Footer() {
             <Link to='/contact'>
                 <button id='footer-btn'>Contact Us</button>
             </Link>
-            <p>Call or Text: (707)234-8583</p>
-            <p>Email: northstatejunkremoval@gmail.com</p>
+            <p>Call or Text: <a href="tel:7072348583">(707)234-8583</a></p>
+            <p>Email: <a href="mailto:northstatejunkremoval@gmail.com">northstatejunkremoval@gmail.com</a></p>
         </div>
     )
 }

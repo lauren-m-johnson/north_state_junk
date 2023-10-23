@@ -12,6 +12,10 @@
     font-size: 2vmin;
 }
 
+#footer img {
+    height: 6vmin;
+}
+
 #footer-btn {
     background-color: #f6bc3f;
     border: none;
@@ -24,3 +28,4 @@
     background-color: #8a0606;
     color: #fcfbf4;
 }
+
