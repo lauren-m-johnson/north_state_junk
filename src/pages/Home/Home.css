@@ -43,3 +43,18 @@
     background-color: #f6bc3f;
     color: #000000;
 }
+
+@media (max-width: 767px) {
+    h1 {
+        font-size: 7vmin;
+    }
+    #home-list h2 {
+        font-size: 6vmin;
+        margin: 0;
+    }
+    #home-list {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+}

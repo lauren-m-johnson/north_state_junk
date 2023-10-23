@@ -62,4 +62,8 @@ right: 5px;
 fill: rgba(255, 255, 255, 0.5);
 }
 
-
+@media (max-width: 767px) {
+    .keen-slider__slide img {
+        height: 80vmin;
+    }
+}
