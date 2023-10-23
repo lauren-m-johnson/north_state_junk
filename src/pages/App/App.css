@@ -4,6 +4,11 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
+h2 {
+    font-size: 4vmin;
+    color: #24231b;
+}
+
 .main-container {
     margin: 5vmin;
     padding: 5vmin;

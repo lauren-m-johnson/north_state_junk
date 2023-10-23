@@ -1,4 +1,5 @@
 import './Home.css';
+import { Link } from 'react-router-dom';
 
 export default function Home() {
     return (
@@ -17,6 +18,24 @@ export default function Home() {
                     whatever comes our way. We are always looking forward to a better tomorrow, let us help you get there as we work 
                     toward a cleaner, greener future for everyone!
                 </p>
+            </section>
+            <section id='image-container'>
+                <img></img>
+                <img></img>
+                <img></img>
+                <img></img>
+            </section>
+            <section id='home-list'>
+                <h2>We Offer:</h2>
+                <ul>
+                    <li>Junk Removal</li>
+                    <li>Property and House Cleanups</li>
+                    <li>Appliance and Furniture Removal</li>
+                    <li>And more!</li>
+                </ul>
+                <Link to='/services'>
+                    <button id='services-btn'>See All Services</button>
+                </Link>
             </section>
         </div>
     )

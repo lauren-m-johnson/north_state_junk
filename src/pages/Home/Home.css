@@ -10,7 +10,30 @@
     padding: 3vmin;
 }
 
-#about h2 {
-    font-size: 4vmin;
-    color: #24231b;
+#image-container {
+    background-color: #DECCA6;
+    padding: 2vmin;
+    display: flex;
+    flex-direction: row;
+}
+
+#home-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#services-btn {
+    background-color: #8a0606;
+    color: #fcfbf4;
+    border: none;
+    padding: 2vmin;
+    border-radius: 10px;
+    font-family: 'Lato', sans-serif;
+}
+
+#services-btn:hover {
+    background-color: #f6bc3f;
+    color: #000000;
 }
