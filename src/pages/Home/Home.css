@@ -57,4 +57,16 @@
         flex-direction: column;
         gap: 0;
     }
+    #home-list li {
+        font-size: 4vmin;
+    }
+    #services-btn {
+        font-size: 4vmin;
+    }
+    #about h2 {
+        font-size: 5vmin;
+    }
+    #about p {
+        font-size: 4vmin;
+    }
 }
