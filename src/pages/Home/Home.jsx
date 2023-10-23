@@ -20,10 +20,10 @@ export default function Home() {
                 </p>
             </section>
             <section id='image-container'>
-                <img></img>
-                <img></img>
-                <img></img>
-                <img></img>
+                <img src='/images/jayson_blitz_trailer.png' alt='Jayson and dog, Blitz standing in front of truck and dump trailer'></img>
+                <img src='/images/loaded_trailer.png' alt='Loaded dump trailer ready to head out'></img>
+                <img src='/images/skid_trailer_group.png' alt='Owners Stephen and Jayson with their budding Dave in front of the trailer'></img>
+                <img src='/images/jayson_truck.png' alt='Jayson in front of skid stear'></img>
             </section>
             <section id='home-list'>
                 <h2>We Offer:</h2>

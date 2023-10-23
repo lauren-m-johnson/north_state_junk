@@ -2,7 +2,7 @@
     background-image: url('/images/ca-hills.jpg');
     background-size: cover;
     background-position: center;
-    height: 50vmin;
+    height: 45vmin;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,6 +15,11 @@
     padding: 2vmin;
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#image-container img {
+    width: 35vmin;
 }
 
 #home-list {

@@ -13,6 +13,9 @@ h2 {
     margin: 5vmin;
     padding: 5vmin;
     background-color: #B8B68F;
+    display: flex;
+    flex-direction: column;
+    gap: 5vmin;
 }
 
 .section-text {
