@@ -2,7 +2,13 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    margin: 5vmin;
+    margin: 5vmin 5vmin 0 0;
+}
+
+#nav-bar img {
+    width: 50vmin;
+    padding: 0;
+    margin: 0;
 }
 
 #nav-links {
