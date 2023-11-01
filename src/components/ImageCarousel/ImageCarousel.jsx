@@ -22,13 +22,13 @@ export default function ImageCarousel() {
       <div className="navigation-wrapper">
         <div ref={sliderRef} className="keen-slider">
           <div className="keen-slider__slide">
+            <img src='/images/skid_trailer_group.png' alt='Owners Stephen and Jayson with their budding Dave in front of the trailer'></img>
+          </div>
+          <div className="keen-slider__slide">
             <img src='/images/jayson_blitz_trailer.png' alt='Jayson and dog, Blitz standing in front of truck and dump trailer'></img>
           </div>
           <div className="keen-slider__slide">
             <img src='/images/loaded_trailer.png' alt='Loaded dump trailer ready to head out'></img>
-          </div>
-          <div className="keen-slider__slide">
-            <img src='/images/skid_trailer_group.png' alt='Owners Stephen and Jayson with their budding Dave in front of the trailer'></img>
           </div>
           <div className="keen-slider__slide">
             <img src='/images/jayson_truck.png' alt='Jayson in front of skid steer'></img>
