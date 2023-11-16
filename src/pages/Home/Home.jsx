@@ -8,7 +8,7 @@ export default function Home() {
         <div className='main-container'>
             <section id='home-intro'>
                 <div className='section-text'>
-                    <h1>Junk in Sonoma, Mendocino and Lake Counties</h1>
+                    <h1>Junk Removal in Sonoma, Mendocino and Lake Counties</h1>
                 </div>
             </section>
             <section id='about'>
