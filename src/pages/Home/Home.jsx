@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import ReactCardFlip from '../../components/ReactCardFlip/ReactCardFlip';
 import ImageCarousel from '../../components/ImageCarousel/ImageCarousel';
 import './Home.css';
 
@@ -35,6 +36,9 @@ export default function Home() {
                 <Link to='/services'>
                     <button id='services-btn'>See All Services</button>
                 </Link>
+            </section>
+            <section>
+                <ReactCardFlip />
             </section>
         </div>
     )
