@@ -63,4 +63,13 @@ hr {
     #serv-intro h1{
         font-size: 15vmin;
     }
+    #slogan h2 {
+        font-size: 4vmin;
+    }
+    hr {
+        width: 10vmin;
+    }
+    #services-lists img {
+        width: 20vmin;
+    }
 }

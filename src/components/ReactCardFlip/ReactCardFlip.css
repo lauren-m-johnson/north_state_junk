@@ -68,7 +68,7 @@
     }
     .card-front, .card-back {
         width: 80%;
-        height: 80vmin;
+        height: 90vmin;
     }
     .card-front img {
         width: 35vmin;
