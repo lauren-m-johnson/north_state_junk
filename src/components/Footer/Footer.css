@@ -24,6 +24,7 @@
     border-radius: 10px;
     font-family: 'Lato', sans-serif;
     margin-bottom: 5vmin;
+    font-weight: bold;
 }
 
 #footer-btn:hover {

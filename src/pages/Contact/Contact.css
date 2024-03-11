@@ -1,23 +1,39 @@
 #contact-intro {
-    background-image: url('/images/contact-phone.jpg');
-    background-size: cover;
-    background-position: center;
-    height: 45vmin;
+    background-color: #f6bc3f;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 7vmin;
-    padding: 3vmin;
+}
+
+#contact-intro h1 {
+    font-size: 5vmin;
+}
+
+#form {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#image-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#image-box h2 {
+    padding: 0 0 2vmin 0;
+    margin: 0;
+}
+
+#form img {
+    width: 40vmin;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px grey;
 }
 
 #contact-info {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-@media (max-width: 767px) {
-    #contact-intro h1{
-        font-size: 18vmin;
-    }
 }
