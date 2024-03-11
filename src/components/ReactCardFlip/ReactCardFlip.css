@@ -24,6 +24,7 @@
     gap: 0;
     border: solid 2px rgb(37, 37, 30);
     border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px grey;
 }
 
 .card-back {
@@ -37,11 +38,13 @@
     flex-direction: column;
     align-items: center;
     border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px grey;
     border: solid 2px rgb(37, 37, 30);
 }
 
 .card-front img {
     width: 20vmin;
+    border-radius: 10px;
 }
 
 .card-front h3 {
