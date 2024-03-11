@@ -1,5 +1,6 @@
 #home-intro {
     background-image: url('/images/ca-hills.jpg');
+    border-radius: 10px;
     background-size: cover;
     background-position: center;
     height: 45vmin;

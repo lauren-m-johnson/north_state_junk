@@ -51,3 +51,26 @@
     padding: 0;
     margin: 2vmin 0 0;
 }
+
+@media (max-width: 767px) {
+    #card-container {
+        display: flex;
+        flex-direction: column;
+    }
+    #card-container h3 {
+        font-size: 6vmin;
+    }
+    #card-container p {
+        font-size: 4vmin;
+    }
+    #card-container li {
+        font-size: 5vmin;
+    }
+    .card-front, .card-back {
+        width: 80%;
+        height: 80vmin;
+    }
+    .card-front img {
+        width: 35vmin;
+    }
+}

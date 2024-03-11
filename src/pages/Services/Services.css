@@ -1,5 +1,6 @@
 #serv-intro {
     background-image: url('/images/junk-pile.jpg');
+    border-radius: 10px;
     background-size: cover;
     background-position: center;
     height: 30vmin;

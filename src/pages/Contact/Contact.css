@@ -1,12 +1,13 @@
 #contact-intro {
-    background-color: #f6bc3f;
+    background-color: #d69d23;
+    border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 #contact-intro h1 {
-    font-size: 5vmin;
+    font-size: 7vmin;
 }
 
 #form {
