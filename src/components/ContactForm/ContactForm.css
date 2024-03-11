@@ -13,3 +13,13 @@ textarea[name="message"] {
     width: 40vmin;
     height: 20vmin; 
   }
+
+@media (max-width: 767px) {
+    form {
+        width: 65vmin;
+    }
+    textarea[name="message"] {
+        width: 60vmin;
+        height: 30vmin; 
+      }
+}
