@@ -16,14 +16,18 @@ export default function Home() {
                 <h2>About North Coast Junk Removal</h2>
                 <p>
                     Here at North Coast Junk Removal we offer premier services to our clients and community. Our mission is to provide
-                    professional, affordable and convenient service with an emphasis on customer satisfaction. While junk removal may
-                    be a large part of our business we also strive to improve Northern California through donating, recycling and reusing
-                    whatever comes our way. We are always looking forward to a better tomorrow, let us help you get there as we work 
-                    toward a cleaner, greener future for everyone!
+                    professional, affordable and convenient service with an emphasis on customer satisfaction. 
                 </p>
             </section>
             <section>
                 <ImageCarousel />
+            </section>
+            <p>While junk removal may
+                    be a large part of our business we also strive to improve Northern California through donating, recycling and reusing
+                    whatever comes our way. We are always looking forward to a better tomorrow, let us help you get there as we work 
+                    toward a cleaner, greener future for everyone!</p>
+            <section>
+                <ReactCardFlip />
             </section>
             <section id='home-list'>
                 <h2>We Offer:</h2>
@@ -36,9 +40,6 @@ export default function Home() {
                 <Link to='/services'>
                     <button id='services-btn'>See All Services</button>
                 </Link>
-            </section>
-            <section>
-                <ReactCardFlip />
             </section>
         </div>
     )
