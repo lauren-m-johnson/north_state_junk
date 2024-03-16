@@ -22,10 +22,19 @@ export default function Home() {
             <section>
                 <ImageCarousel />
             </section>
-            <p>While junk removal may
-                    be a large part of our business we also strive to improve Northern California through donating, recycling and reusing
-                    whatever comes our way. We are always looking forward to a better tomorrow, let us help you get there as we work 
-                    toward a cleaner, greener future for everyone!</p>
+            <div id='slogan'>
+                <hr />
+                    <div>
+                        <h2>YOU CALL - WE HAUL</h2>
+                        <h2>NO JOB TOO BIG OR SMALL</h2>
+                    </div>
+                <hr />
+            </div>
+            <p>
+                While junk removal may be a large part of our business we also strive to improve Northern California through donating, recycling and reusing
+                whatever comes our way. We are always looking forward to a better tomorrow, let us help you get there as we work 
+                toward a cleaner, greener future for everyone!
+            </p>
             <section>
                 <ReactCardFlip />
             </section>
