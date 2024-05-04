@@ -1,13 +1,19 @@
+
 #contact-intro {
-    background-color: #d69d23;
+    background-image: url('/images/batteries.png');
     border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    height: 30vmin;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 7vmin;
+    padding: 3vmin;
 }
 
 #contact-intro h1 {
-    font-size: 7vmin;
+    font-size: 10vmin;
 }
 
 #form {
